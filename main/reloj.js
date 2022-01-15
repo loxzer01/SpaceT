@@ -40,17 +40,17 @@ const cambio = () => {
 			countdown("May 15 2021 21:24:11 GMT-0400", 'reloj');
 			break;
 		case 1:
-			countdown("May 30 2021 21:24:11 GMT-0400", 'reloj');
-			price.textContent = "3 USD = 1 YFDR";
-			bonus.textContent = "10% (+ 1000 USD)";
+			countdown("Feb 15 2022 21:24:11 GMT-0400", 'reloj');
+			price.textContent = "1 BNB = 65,000 SPC";
+			bonus.textContent = "5% (+ 2 BNB)";
 			break;
 		case 2:
-			countdown("jun 14 2021 21:24:11 GMT-0400", 'reloj');
-			price.textContent = "3.5 USD = 1 YFDR";
-			bonus.textContent = "8% (+ 1000 USD)";
+			countdown("Jan 29 2022 21:24:11 GMT-0400", 'reloj');
+			price.textContent = "1 BNB = 65,000 SPC";
+			bonus.textContent = "3% (+ 2 BNB)";
 			break
 	}
 }
 if(cuentaVeces === 0) {
-	countdown("May 15 2021 21:24:11 GMT-0400", 'reloj');
+	countdown("Jan 14 2021 21:24:11 GMT-0400", 'reloj');
 }
