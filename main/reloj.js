@@ -37,7 +37,7 @@ const countdown = (deadline, elem) => {
 const cambio = () => {
 	switch (cuentaVeces) {
 		case 0:
-			countdown("May 15 2021 21:24:11 GMT-0400", 'reloj');
+			countdown("Feb 15 2022 21:24:11 GMT-0400", 'reloj');
 			break;
 		case 1:
 			countdown("Feb 15 2022 21:24:11 GMT-0400", 'reloj');
@@ -52,5 +52,5 @@ const cambio = () => {
 	}
 }
 if(cuentaVeces === 0) {
-	countdown("Jan 14 2021 21:24:11 GMT-0400", 'reloj');
+	countdown("Jan 29 2021 21:24:11 GMT-0400", 'reloj');
 }
