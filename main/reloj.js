@@ -37,20 +37,20 @@ const countdown = (deadline, elem) => {
 const cambio = () => {
 	switch (cuentaVeces) {
 		case 0:
-			countdown("Jan 29 2022 21:24:11 GMT-0400", 'reloj');
+			countdown("Jan 29 2022 7:00:00 GMT-0400", 'reloj');
 			break;
 		case 1:
-			countdown("Feb 15 2022 21:24:11 GMT-0400", 'reloj');
+			countdown("Feb 15 2022 7:00:00 GMT-0400", 'reloj');
 			price.textContent = "1 BNB = 65,000 SPC";
 			bonus.textContent = "5% (+ 2 BNB)";
 			break;
 		case 2:
-			countdown("Jan 29 2022 21:24:11 GMT-0400", 'reloj');
+			countdown("Jan 29 2022 7:00:00 GMT-0400", 'reloj');
 			price.textContent = "1 BNB = 65,000 SPC";
 			bonus.textContent = "3% (+ 2 BNB)";
 			break
 	}
 }
 if(cuentaVeces === 0) {
-	countdown("Feb 15 2021 21:24:11 GMT-0400", 'reloj');
+	countdown("Jan 29 2022 7:00:00 GMT-0400", 'reloj');
 }
