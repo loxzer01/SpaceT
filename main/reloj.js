@@ -41,12 +41,12 @@ const cambio = () => {
 			break;
 		case 1:
 			countdown("Feb 10 2022 7:00:00 GMT-0400", 'reloj');
-			price.textContent = "1 BNB = 65,000 SPC";
+			price.textContent = "1 BNB = 55,000 SPC";
 			bonus.textContent = "5% (+ 2 BNB)";
 			break;
 		case 2:
 			countdown("Jan 29 2022 7:00:00 GMT-0400", 'reloj');
-			price.textContent = "1 BNB = 65,000 SPC";
+			price.textContent = "1 BNB = 55,000 SPC";
 			bonus.textContent = "3% (+ 2 BNB)";
 			break
 	}
